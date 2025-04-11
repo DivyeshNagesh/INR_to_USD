@@ -7,6 +7,6 @@ function convert() {
     var result = amount * rate;
   
     // Display the result
-    document.getElementById("result").innerHTML = "Converted amount in USD: " + result.toFixed(2);
+    document.getElementById("result").innerHTML = "Converted amount in USD: " + result.toFixed(5);
   }
   
